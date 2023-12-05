@@ -9,4 +9,4 @@ dist/
 
 # Ignore temporary files
 *.tmp
-.history
+.history*
