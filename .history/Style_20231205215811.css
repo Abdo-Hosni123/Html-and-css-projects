@@ -1,0 +1,54 @@
+
+*, *::before, *::after {
+box-sizing: border-box;
+}
+* {
+margin: 0;
+}
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+
+input, button, textarea, select {
+font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+}
+
+#root, #__next {
+isolation: isolate;
+}
+.container{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-color: #000000;
+    opacity: 0.1;
+    background-image: linear-gradient(45deg, #070708 50%, #000000 50%);
+    background-size: 7px 7px; */
+    
+}
+.card { 
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    border-radius: 10px;
+}
+.top { 
+    height: 100px;
+    width: 100px;
+    background-color: #000000;
+    opacity: 0.1;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(45deg, #444cf7 0, #444cf7 1px, #7d9579 0, #7d9579 50%);
+    
+}
